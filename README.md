@@ -71,3 +71,9 @@ Dockerを使ってmacOS上でLinuxアプリケーションを開発する場合�
 * `--rm` オプションを実行していないので、`exit` した後でもコンテナはサスペンド状態として残っている。`docker container -ls -a` を実行すると、サスペンドしたコンテナを表示することができる。
 * `docker commit <CONTAINER ID> compilerbook` を実行するとイメージに変更を加えることができる。
 * サスペンドしたコンテナや古いイメージ、残っていてもディスクスペースを少し消費するだけだが、気になる場合は `docker system prune` を実行することで削除できる。
+
+## 参考
+「低レイヤーを~」以外にも参考になりそうなページ
+* ["低レイヤを知りたい人のためのCコンパイラ作成入門"をApple Silicon環境でやってみる](https://zenn.dev/tok/scraps/51f8ec23ea48e1)
+* [低レイヤを知りたい人のためのCコンパイラ作成入門](https://hackmd.io/@yuriko0505/r1AprzFZ6)
+* [Apple Siliconで進めるCコンパイラ作成入門](https://zenn.dev/micin/articles/78f292afb77ef0)
