@@ -1,0 +1,5 @@
+# 拡張子のないファイルを除外する
+# https://qiita.com/padawan_e15/items/7ba90f09e3ecd559f95b
+*
+!*/
+!*.*
